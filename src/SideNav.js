@@ -56,7 +56,7 @@ const Side = () => {
           <ListItemIcon>
             <HomeIcon style={{fontSize:"20px", padding:"1px"}} />
           </ListItemIcon>
-          <Link to={"/"}>
+          <Link to={"/e-commerce"}>
             <ListItemText primary= "Home" />
           </Link>
         </ListItem>
