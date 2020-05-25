@@ -103,7 +103,7 @@ const Login= () => {
 
       //Data post confirmation. to be removed later
       setLoggedin(true);
-      history.push("/")
+      history.push("/e-commerce")
       window.location.reload(false);
     }
   };

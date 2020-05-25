@@ -52,7 +52,7 @@ const ArchiveNav = () =>{
             <div>
             <div className="navbar">
               <Typography variant="h6" component="h7" >
-                    <Link to={"/"} className={classes.links}>
+                    <Link to={"/e-commerce"} className={classes.links}>
                       <ListItemText primary="HOME" styles={{fontWeight:"bold"}}/>
                     </Link>
                           <div className="dropdown">
