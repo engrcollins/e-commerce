@@ -88,6 +88,34 @@ const Side = () => {
           <ListItemText primary="Login"/>
         </Link>
       </ListItem>
+
+      <ListItem
+        button
+        selected={selectedIndex === 1}
+        onClick={(event) => handleListItemClick(event, 1)}
+        style={{padding:"1px" }}
+      >
+        <ListItemIcon>
+          <AccessTimeIcon style={{fontSize:"20px", padding:"1px"}} />
+        </ListItemIcon>
+        <Link to={"/search-filter"}>
+          <ListItemText primary="Search Page"/>
+        </Link>
+      </ListItem>
+
+      <ListItem
+        button
+        selected={selectedIndex === 1}
+        onClick={(event) => handleListItemClick(event, 1)}
+        style={{padding:"1px" }}
+      >
+        <ListItemIcon>
+          <AccessTimeIcon style={{fontSize:"20px", padding:"1px"}} />
+        </ListItemIcon>
+        <Link to={"/slider"}>
+          <ListItemText primary="Slider"/>
+        </Link>
+      </ListItem>
       </List>
 
       <Divider />
