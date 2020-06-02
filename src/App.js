@@ -10,7 +10,7 @@ import "./App.css";
 import Registration from "./components/Register";
 import Login from "./components/Login";
 import Filter from './components/PriceFilter';
-import SearchFilter2 from './components/SearchFilter2';
+import SearchFilter from './components/SearchFilter';
 
 function App() {
 
@@ -27,7 +27,7 @@ function App() {
                   <Grid item xs={9} sm={9} lg={10}>
                   <div className="appContent" style={{textAlign: "center"}}>
                   <Switch>
-                    <Route path="/search-filter" component={SearchFilter2} />
+                    <Route path="/search-filter" component={SearchFilter} />
                     <Route path="/price-filter" component={Filter} />
                       <Route path="/registration" component={Registration} />
                       <Route path="/login" component={Login} />
